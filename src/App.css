@@ -1,6 +1,8 @@
 
 h1 {
-    padding: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2.5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,4 +79,10 @@ span {
 
 .tie {
     color: blue;
+}
+
+.App {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px dashed black;
 }
