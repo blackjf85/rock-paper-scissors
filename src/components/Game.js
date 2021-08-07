@@ -60,13 +60,13 @@ const Game = () => {
                 <p>You: {player}</p> 
                 <p>Computer: {computer}</p>
             </div>
-            <div>
+            <div class="player-choice">
                 <button id="rock" onClick={playerRock}>Rock</button>
                 <button id="paper" onClick={playerPaper}>Paper</button>
                 <button id="scissors" onClick={playerScissors}>Scissors</button>
             </div>
             <div>
-                <p>{message}</p>
+                <h3>{message}</h3>
             </div>
         </div>
     )
