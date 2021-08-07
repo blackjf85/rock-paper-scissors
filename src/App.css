@@ -40,8 +40,16 @@ button:hover {
     font-weight: bold;
 }
 
+span {
+    font-weight: bold;
+}
+
 .player-choice {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.rules {
+    font-weight: italic;
 }

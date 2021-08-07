@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Results from "./Results"
 
 const Game = () => {
     const [randomNum, setRandomNum] = useState(Math.random())
@@ -56,18 +57,12 @@ const Game = () => {
     return (
         <div>
             <h2>Let's Play!</h2>
-            <div>
-                <p>You: {player}</p> 
-                <p>Computer: {computer}</p>
-            </div>
-            <div class="player-choice">
+            <div className="player-choice">
                 <button id="rock" onClick={playerRock}>Rock</button>
                 <button id="paper" onClick={playerPaper}>Paper</button>
                 <button id="scissors" onClick={playerScissors}>Scissors</button>
             </div>
-            <div>
-                <h3>{message}</h3>
-            </div>
+            <Results player={player} computer={computer} message={message}/>
         </div>
     )
 }
