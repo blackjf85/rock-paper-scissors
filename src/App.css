@@ -1,3 +1,4 @@
+
 h1 {
     padding: 5%;
     display: flex;
@@ -52,4 +53,28 @@ span {
 
 .rules {
     font-weight: italic;
+}
+
+.counts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pSpacing {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-weight: bold;
+}
+
+.win {
+    color: green
+}
+
+.lose {
+    color: red
+}
+
+.tie {
+    color: blue;
 }
